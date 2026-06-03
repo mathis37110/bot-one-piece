@@ -7,7 +7,7 @@ import asyncio
 from datetime import datetime, timedelta
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
-TOKEN = "TON_TOKEN_ICI"
+TOKEN = os.getenv("TOKEN")
 PREFIX = "!"
 DATA_FILE = "data.json"
 
